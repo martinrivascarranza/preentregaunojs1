@@ -44,7 +44,7 @@ do {
   alert("Estas son las Kettlebells disponibles:\n4kg, 6kg, 8kg, 12kg, 16kg, 20kg, 24kg");
 
   //eleccion del peso de la kettlebell
-   pesoKettlebell = +prompt("Ingrese el peso de la kettlebell que desea comprar:");
+   pesoKettlebell = +prompt("Ingrese el peso de la kettlebell que desea comprar (ingrese solo números, ejemplo 4 = 4kg):");
 
   // verificación peso correcto
   if (pesoKettlebell in precios) {
